@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Custom-Pixelated-Font;
+    src: url('assets/Pixel Font.ttf')
+}
+
+html, body {
+    text-align: center;
+    height: 100%;
+    background-image: url(assets/sky_background.gif); 
+}
+
+.splitscreen{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    height: 100%;
+    width: 100%;
+}
+
+.virtual-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.virtual-tour {
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.virtual-body-img {
+    height: 280px ;
+    width: 400px;
+}
+
+.virtual-tour-b {
+    margin-top:40.5%; 
+    margin-bottom:50%;
+    padding : 40px 40px 40px 40px;  
+    border-radius: 40px;   
+}
+
+.expanded-virtual {
+    transition: all 0.3s ease;
+    transform: translateX(50%) scaleX(200%);
+}
+
+.expanded-real {
+    transition: all 0.3s ease;
+    transform: translateX(-50%) scaleX(200%);
+}
+
+.real-tour {
+    background-color: rgba(0,0,0,0);
+    text-align: center
+}
+
+.real-tour-b {
+   display:inline-block;
+   margin-top:40.5%; 
+   margin-bottom:50%; 
+   padding : 40px 40px 40px 40px;  
+   border-radius: 40px; 
+}
+
+.real-tour-b p , .virtual-tour-b p {
+    font-family: 'Custom-Pixelated-Font';
+    font-size:20px; 
+
+}
+
+.virtual-body { 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+}
+
+.virtual-body div {
+    background-color: white;
+    overflow: auto;
+    padding: 20px;
+    transition: transform 0.3s;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.virtual-body div:hover {
+    transform: scale(1.05);
+}
+
+.virtual-body div::-webkit-scrollbar {
+    width: 0;
+}
+
+.virtual-body {
+    margin-top:30px;
+}
+
+.virtual-header{
+    font-family: Custom-Pixelated-Font; 
+    font-size: 24px;
+    color: white;
+}
+
+.real {
+    width:1000px;
+    height:800px;
+    overflow: hidden;
+    background-image: url(/assets/Roadmap.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 90%; 
+    image-rendering: pixelated; 
+}
+
+.real-style div{
+    position: absolute; 
+    padding: 10px 10px 10px 10px; 
+    border-radius: 55px;
+    background-color: lightcoral;
+    overflow: auto;
+    width: 60px; 
+    height: 60px;  
+}
+
+.check-1{
+    left: 150px; 
+    top: 45px; 
+}
+
+.check-2{
+    left: 750px; 
+    top: 170px; 
+}
+
+.check-3{
+    left: 600px; 
+    top: 300px; 
+}
+
+.check-4{
+    left: 350px; 
+    bottom: 200px;
+}
+
+.check-5{
+    left: 500px; 
+    bottom: 30px;
+}
+
+.check-6{
+    left: 700px; 
+    bottom: 0px; 
+}
+
+.check-7{
+    left: 1000px; 
+    bottom: 0px; 
+}
+
+
+.check-8{
+    right: 00px;
+    bottom: 200px; 
+}
+
+.real-style div p{
+    font-size: 16px;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.real-style div:hover {
+    height:250px; 
+    width: 250px;
+    word-wrap:break-word;
+    box-shadow: 15px 20px 10px rgba(0,0,0,0.5);
+}
+
+.real-style div::-webkit-scrollbar{
+    width: 0;
+}
+
+.number{
+    color:palegoldenrod;
+    font-size:60px;
+    text-align:center; 
+}

@@ -1,0 +1,37 @@
+Mercury:
+
+Closest approach to Earth: About 0.61 AU
+Farthest separation from Earth: About 2.41 AU
+
+Venus:
+
+Closest approach to Earth: About 0.28 AU
+Farthest separation from Earth: About 1.72 AU
+
+Mars:
+
+Closest approach to Earth: About 0.52 AU
+Farthest separation from Earth: About 2.67 AU
+
+Jupiter:
+
+Closest approach to Earth: About 4.2 AU
+Farthest separation from Earth: About 6.2 AU
+
+Saturn:
+
+Closest approach to Earth: About 6.04 AU
+Farthest separation from Earth: About 11.04 AU
+
+Uranus:
+
+Closest approach to Earth: About 18.38 AU
+Farthest separation from Earth: About 25.7 AU
+
+Neptune:
+
+Closest approach to Earth: About 28.81 AU
+Farthest separation from Earth: About 30.33 AU
+
+
+64000 km/h
